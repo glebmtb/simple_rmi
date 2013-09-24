@@ -13,5 +13,11 @@
     <name>simple-rmi-client</name>
     <version>1.0-SNAPSHOT</version>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>ru.n5g.simplermi</groupId>
+            <artifactId>simple-rmi-server</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
